@@ -1,0 +1,46 @@
+<suite name="Sequential Tests" verbose="1">
+
+	<tests>
+	
+		 <test name="Mac Test1">
+			<parameters>
+				<parameter name="platform" value="mac" />
+				<parameter name="version" value="6.0" />
+			</parameters>
+			<classes>
+				<class name="appium.SampleTestCase" />
+			</classes>
+		</test> 
+ 	
+ 
+		 <test name="Window Test2">
+			<parameters>
+				<parameter name="platform" value="window" />
+				<parameter name="version" value="6.0" />
+			</parameters>
+			<classes>
+				<class name="appium.SampleTestCase" />
+			</classes>
+		</test> 
+ 	
+		 <test name="Window Test3">
+			<parameters>
+				<parameter name="platform" value="window" />
+				<parameter name="version" value="5.1" />
+			</parameters>
+			<classes>
+				<class name="appium.SampleTestCase" />
+			</classes>
+		</test> 
+				 
+			 
+	</tests>
+	
+</suite>
+
+
+
+<!-- 
+
+Sequential running fine with mac + window system 
+ -->
